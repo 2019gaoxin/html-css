@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.test{
+			border:1px solid #E8E8E8;
+		    width: 260px;
+		    text-align: center;
+		    height: 40px;
+		    position:relative;
+		    outline: none;
+		}
+
+		p{
+			display: inline-block;
+			line-height: 40px;
+			position: relative;
+			bottom: 15px;
+		}
+		input{
+			position: relative;
+			bottom: 15px;
+			border:none;
+			left: 16px;
+		}
+
+        input:focus{
+            outline: none;
+        }
+		input:focus {
+            border:none;
+        }
+		button{
+			display: inline-block;
+			line-height: 40px;
+			position: relative;
+			border-color: #FFFFFF;
+			border: none;
+			background-color: red;
+			outline: none;
+			width: 260px;
+			height: 40px;
+			color:white;
+		}
+		.formbox{
+			margin:0px auto;
+			width: 260px;
+			height: 160px;
+			position: relative;
+			top:160px;
+			font-family: Cursive ;
+
+		}
+		.tipdiv{
+			width: 250px;
+			color:#A8A8A8;
+
+			height: 20px;
+			font-size: 12px;
+
+		}
+		.jsbox{
+			color: red;
+			position: relative;
+			left: 1000px;
+
+		}
+		#username{
+			position: relative;
+		}
+		#userNameTip{
+			color: #A8A8A8;
+
+		}
+		#passwordTip{
+			color: #A8A8A8;
+
+		}
+		#passwordId{
+			position: relative;
+		}
+		#success{
+			color: red;
+		}
+		#namePrint{
+			color: red;
+		}
+		#passwordPrint{
+			color:red;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="formbox">
+		<div class="test">
+			<p>用&nbsp户&nbsp名</p>
+			<input type="text" name="username" id = "username" onfocus="userNameInput1()" onblur = "userNameInput2()">		
+		</div>
+
+		<div class="tipdiv" id="userNameTip">
+				
+		</div>
+
+        <div class="test">
+        	<p>设置密码</p>
+        	<input type="password" name="userPassWord" id = "passWordId" onfocus="userPassword1()" onblur = "userPassword2()">
+        </div>
+
+        <div class="tipdiv" id="passwordTip">
+            	
+        </div>
+
+
+        <div class="test">
+        	<button onclick="register()">立即注册</button>
+        </div>
+	</div>
+
+	<div class="jsbox">
+		<div>
+			<p id = "sucess"></p>
+		</div>
+
+		<div>
+			<p id = "namePrint"></p>
+		</div>
+
+		<div>
+			<p id = "passwordPrint"></p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		//支持中文数字
+		//用户名不能为空
+
+		//建议至少使用两种字符组合
+		//密码不能为空
+		//var nameIn = document.getElementById("username").innerHTML;
+		function userNameInput1(){
+			//var userNameTip =document.getElementById(userNameTip);
+			//userNameTip.innerHTML = "支持中文数字";
+			document.getElementById("userNameTip").innerHTML="支持中文数字";
+
+		}
+
+		function userNameInput2(){
+			var nameIn = document.getElementById("username").value;
+			if(nameIn){
+
+				document.getElementById("userNameTip").innerHTML=" ";
+			}else{
+				document.getElementById("userNameTip").innerHTML="用户名不能为空";
+			}
+		}
+		function userPassword1(){
+			document.getElementById("passwordTip").innerHTML="建议至少使用两种字符组合";
+
+		}
+		function userPassword2(){
+			var passwordIn = document.getElementById("passWordId").value;
+			if(passwordIn){
+				document.getElementById("passwordTip").innerHTML=" ";
+			}else{
+				document.getElementById("passwordTip").innerHTML="密码不能为空";
+			}
+		}
+
+		function register(){
+			var nameIn = document.getElementById("username").value;
+			var passwordIn = document.getElementById("passWordId").value;
+			document.getElementById("sucess").innerHTML="注册成功!";
+			document.getElementById("namePrint").innerHTML="用户名：" + nameIn;
+			document.getElementById("passwordPrint").innerHTML="密码：" + passwordIn;
+		}
+
+
+	</script>
+
+</body>
+</html>
