@@ -1,0 +1,575 @@
+body{
+	background-color: #E0E0E0;
+	font-family: "Microsoft Yahei" !important;
+}
+.header{
+	width: 1200px;
+	height: 101px;
+	margin:0 auto;
+	background-color:white;      
+}
+.logo{
+	width: 369px;
+	line-height: 101px;
+	font-size:40px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:#B00000;
+}
+.list{
+	width:659px;
+    height:19px;
+    float: right;
+}
+.list li{
+	height:97px;
+	width: 110px;
+	float: left;
+	text-align: center;
+	border:2px solid white;
+}
+.list a{
+	/*color: #330066;*/
+	color: black;
+	line-height: 101px;
+}
+.list li:hover{
+	border-bottom: 2px solid #330099;
+}
+.Secondarymenu{
+	display: none;
+}
+.Secondarymenu li{
+	background-color: black;
+	position: relative;
+	z-index: 999;
+	border:2px solid black;
+}
+.Secondarymenu li>a{
+	color: white;
+}
+.list li:hover ul{
+	display: block;
+
+}
+.imgnormal{
+	width: 100%;
+}
+.banner
+{
+	width: 1200px;
+	height: 400px;
+	border: 1px solid black;
+	background:url(../images/1278.png) no-repeat;
+	position: absolute;
+	left: 165px;
+	/*overflow: hidden;*/
+}
+.search{
+	width: 320px;
+	height: 30px;
+	border-radius: 0px 10px 10px 0px;
+	padding: 12px 16px;
+    font-size: 16px;
+    margin: 0;
+    vertical-align: top;
+    outline: 0;
+    box-shadow: none;
+    border: 2px solid #c4c7ce;
+    background: #404040;
+    color: white;
+}
+.middlesaerch{
+	position: relative;
+	left: 25%;
+	top:25%;
+}
+.button{
+	width: 30px ;
+	height: 30px ;
+	/*background-color: #000000;*/
+	padding: 12px 16px;
+	background-color:;
+	background:  #404040 url(../images/search.png) no-repeat center; 
+	float: left;
+	cursor: pointer;
+}
+.searchbox{
+	width: 502px;
+	position: relative;
+	left: 770px;
+	bottom: 56px;
+}
+.headbottom{
+	width: 1200px;
+	height: 55px;
+	position: absolute;
+	left: 165px;
+	top: 120px;
+}
+.flr{
+	float: right;
+}
+.fll{
+	float:left;
+}
+.loginbox{
+    width: 260px;
+    height: 55px;
+}
+.login{
+	width: 150px;
+	height: 30px;
+	border-radius: 0px 10px 10px 0px;
+	padding: 12px 16px;
+    font-size: 16px;
+    margin: 0;
+    vertical-align: top;
+    outline: 0;
+    box-shadow: none;
+    background: #404040;
+    color: white;
+}
+.button{
+	width: 30px ;
+	height: 30px ;
+	/*background-color: #000000;*/
+	padding: 12px 16px;
+	background:  #404040 center; 
+	float: left;
+	cursor: pointer;
+}
+.loginbox1{
+    width: 550px;
+    height: 55px;
+}
+.button1{
+	width: 30px ;
+	height: 30px ;
+	padding: 12px 16px;
+	background-color:;
+	background:  #404040 url(../images/search.png) no-repeat center; 
+	float: left;
+	cursor: pointer;
+}
+.porduct1{
+	width: 280px;
+	height:398px;
+}
+.porduct1 p{
+	font-size:50px;
+	color:#E0E0E0;
+	display: block;
+	height: 180px;
+	width: 280px; 
+	text-align: center;
+	position: relative;
+	top: 50px;
+	font-family: Georgia;
+}
+.banner0{
+	width: 100%;
+	height: 405px;
+	background-color: black;
+	position: absolute;
+	top: 200px;
+}
+.imagebox{
+	position: absolute;
+	top: 60px;
+	left: 350px;
+	color:#E0E0E0; 
+}
+.imagebox p{
+	display: block;
+	width: 280px;
+	height:  180px;
+	position: absolute;
+	left: 40px;
+	line-height: 30px;
+	font-size: 20px;
+}
+.register{
+	width: 405px;
+	height: 405px;
+	position: absolute;
+	left: 1000px;
+}
+.register a{
+	display: block;
+	width: 260px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 2px;
+}
+.register1{
+	position: absolute;
+	top: 70px;
+	right: 50px;
+	background-color: #42A5F5;
+}
+.register2{
+	position: absolute;
+    top: 200px;
+    right: 50px;
+}
+.register a:hover{
+	background-color: white;
+	color:#42A5F5 ;
+}
+.download-top{
+	width:1200px; 
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #666;
+	padding:0 102px;
+	position: absolute;
+	top: 620px;
+	left: 90px;
+}
+.download{
+	width: 1200px;
+	height: 70px;
+	position: absolute;
+	top: 680px;
+	left: 175px;
+	padding: 13px 28px 15px 26px;
+}
+.device{
+	float: left;
+	display: inline-block;
+    width: 200px;
+    height: 78px;
+    box-sizing: border-box;
+    background: #fff;
+    margin: 0 33px;
+    padding: 13px 28px 15px 26px;
+    transition: all .2s;
+}
+.device a{
+	width: 200px;
+	height: 78px;
+	color: #666;
+}
+.device p{
+	display: block;
+	line-height: 10px;
+	position: relative;
+	left: 30px;
+	top: 18PX;
+}
+.fll{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.banner1{
+	width: 100%;
+	height: 405px;
+	background-color: black;
+	position: absolute;
+	top: 800px;
+}
+.banner2
+{
+	width: 1200px;
+	height: 400px;
+	border: 1px solid black;
+	background:url(../images/121.png) no-repeat;
+	position: absolute;
+	left: 165px;
+	/*overflow: hidden;*/
+}
+.download-top2{
+	width:1200px; 
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #666;
+	padding:0 102px;
+	position: absolute;
+	top: 1225px;
+	left: 90px;
+}
+.download2{
+	width: 1200px;
+	height: 70px;
+	position: absolute;
+	top: 1280px;
+	left: 175px;
+	padding: 13px 28px 15px 26px;
+}
+.banner3{
+	width: 100%;
+	height: 405px;
+	background-color: black;
+	position: absolute;
+	top: 1400px;
+}
+.banner4
+{
+	width: 1200px;
+	height: 400px;
+	border: 1px solid black;
+	background:url(../images/bar1.png) no-repeat;
+	position: absolute;
+	left: 165px;
+	/*overflow: hidden;*/
+}
+.download-top3{
+	width:1200px; 
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #666;
+	padding:0 102px;
+	position: absolute;
+	top: 1830px;
+	left: 90px;
+}
+.bottombox{
+	height: 300px;
+	width: 100%;
+	background-color: #5E5E5E;
+	position: absolute;
+	top: 1900px;
+}
+.bottom{
+	width: 1200px;
+	height: 300px;
+    position: absolute;
+	left: 165px;	
+}
+.bottom-left{
+	width:309px;
+	height: 238.4px;
+    border-right: 1px solid #989898;
+	margin: 26px 0 0 94px;
+   
+}
+.bottom-list1{
+ 
+    width: 172px;
+    height: 258px;
+    margin: 26px 0 0 0px;
+}
+.bottom-list2{
+  
+    width: 172px;
+    height: 258px;
+    margin: 26px 0 0 0px;
+}
+.bottom-list3{
+  
+    width: 300px;
+    height: 172px;
+    margin: 26px 0 0 0px;
+}
+.logoname{
+	font-size: 28px;
+    color: #fff;
+    line-height: 40px;
+    margin: 0 0 14px 0;
+    font-weight: bold;
+}
+.bottom-left a{
+	width: 238px;
+    line-height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+}
+.commpany{
+    font-size: 12px;
+    color: #ccc;
+    line-height: 18px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+    display: block;
+    width:289px;
+    height: 52.8px;
+    margin-bottom:40px;
+}
+.join{
+	text-align: center;
+	display: block;
+	background: #9E9E9E;
+	width: 238px;
+    height: 30px;
+    background: #9E9E9E;
+    margin-bottom: 20px;
+}
+.statement{
+	font-size: 12px;
+    color: #999;
+    margin-bottom: 4px;
+}
+#listone p{
+	font-size: 20px;
+    color: #fff;
+}
+.listothers li{
+	display: block;
+	width: 172px;
+	height: 40px;
+
+
+}
+.listothers a{
+	display: block;
+	width: 60px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 40px;
+    margin: 0 auto;   
+}
+.listothers p{
+	display: block;
+	width: 60px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 24px;
+    margin: 0 auto;    
+}
+#connect{
+	font-size: 20px;
+    color: #fff;
+    display: block;
+    width: 100px;
+    margin-left: 0px;
+    margin-top: 0px; 
+    line-height: 20px;
+
+}
+.bottom-list3 p{
+    color: #ccc;
+    line-height: 40px;
+    margin: 0 auto;
+    display: block;
+    width: 250px  
+}
+.funnylast{
+	width: 1200px;
+	height: 50px;
+    position: absolute;
+    top: 2200px; 
+    left: 175px;
+    text-align:center; 
+}
+.funnylast p{
+	line-height: 50px;
+	color: black;
+	font-family: "Microsoft Yahei"
+}
+.userName{
+	border: 1px solid #E8E8E8;
+
+	width:260px;
+	text-align: center;
+	height: 40px;
+}
+#userName1{
+	display: inline-block;
+	line-height: 40px; 
+	width: 80px;
+	
+	float:left;
+	background-color: white;
+	font-family: Cursive ;
+	font-size: 16px;
+}
+#userInput{
+	border:none;
+	float: right;
+	height: 40px;
+	width: 178px;
+}
+.userPassword{
+	border: 1px solid #E8E8E8;
+
+	width:260px;
+	text-align: center;
+	height: 40px;
+	position: absolute;
+	left: 300px;
+	top:0px;
+}
+#userPassword1{
+	display: inline-block;
+	line-height: 40px; 
+	width: 80px;
+	
+	float:left;
+	background-color: white;
+	font-family: Cursive ;
+	font-size: 16px;
+}
+#userPassword2{
+	border:none;
+	float: right;
+	height: 40px;
+	width: 178px;
+}
+#userNameTip{
+	color: #484848;
+	position: absolute;
+	width: 260px;
+	height: 20px;
+	top:42px;
+	font-family: Cursive;
+}
+#passwordTip{
+	color: #484848;
+	position: absolute;
+	width: 260px;
+	height: 20px;
+	top:42px;
+	font-family: Cursive;
+
+}
+input:focus{
+	border: none;
+}
+.submit{
+	border:1px solid red;
+	position: absolute;
+	right: 550px;
+	top:0px;
+	height: 40px;
+	border:1px solid #E8E8E8;
+	outline: none;
+}
+#submit1{
+	height: 40px;
+	text-align: center;
+	font-family: Cursive;
+	font-size: 16px;
+
+}
+.languge{
+	border:1px solid red;
+	position: absolute;
+	right: 470px;
+	top:0px;
+	height: 40px;
+	border:1px solid #E8E8E8;
+	outline: none;
+}
+.imagebop{
+	
+}
+#languge1{
+	height: 40px;
+	text-align: center;
+	font-family: Cursive;
+	font-size: 16px;
+}
